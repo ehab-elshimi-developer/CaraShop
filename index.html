@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+    <!-- fonts -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Work+Sans:wght@200;300;400;500;600;800&display=swap"
+        rel="stylesheet">
+    <!-- End Fonts -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- End font awesome -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- End Bootstrap -->
+    <!-- styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tablet.css">
+</head>
+
+<body style="width: 100%;">
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg shadow z-1 w-100 py-3 ">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="media/imgs/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0 gap-4" id="navbarSupportedContent">
+                <ul class="navbar-nav my-3 my-lg-0 fw-bold gap-2 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="cart position-relative">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="badge mt-2">0</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end nav -->
+    <!-- start header -->
+    <div class="header position-relative">
+        <div class="position-absolute top-0 start-0 bottom-0 end-0 custom-overlay">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-12 col-lg-6  align-self-center header-content">
+                        <p class="mb-4 fs-4 fw-bold ">Trade-in-Offer</p>
+                        <h1 class="mb-3 main-text-color fw-bold ">Super value deals</h1>
+                        <h2 class="mb-4 second-text-color fw-bold">On all products</h2>
+                        <p class="mb-4">Save more with coupons & up to 70% off!</p>
+                        <div class="shop-now d-flex justify-content-center align-items-center">
+                            <a href="#" class="second-text-color fw-bold text-decoration-none">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+    <!-- start features -->
+    <div class="features  my-4">
+        <div class="container py-4">
+            <div class="row  ">
+                <div class="col-12 col-sm-6 col-md-3 col-lg-2  mb-3 mb-lg-0 ">
+                    <div class="box border border-1 pt-3">
+                        <img src="media/imgs/f1.png" alt="">
+                        <div class="f1">Free Shipping</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+                    <div class="box border border-1 pt-3">
+                        <img src="media/imgs/f2.png" alt="">
+                        <div class="f2">
+                            Online Order
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-2  mb-3 ">
+                    <div class="box border border-1 pt-3">
+                        <img src="media/imgs/f3.png" alt="">
+                        <div class="f3 ">
+                            Save Money
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-2  mb-3 ">
+                    <div class="box border border-1 pt-3">
+                        <img src="media/imgs/f4.png" alt="">
+                        <div class="f4">
+                            Promotions
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-2  mb-3 ">
+                    <div class="box border border-1 pt-3">
+                        <img src="media/imgs/f5.png" alt="">
+                        <div class="f5">
+                            Happy Sell
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-2  mb-3 ">
+                    <div class="box border border-1 pt-3">
+                        <img src="media/imgs/f6.png" alt="">
+                        <div class="f6">
+                            F24/7 Supports
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end features -->
+    <!-- start products -->
+    <div class="featured-products pt-4" id="products">
+        <div class="head text-center">
+            <h1 class="head-title">Featured Products</h1>
+            <p class="head-desc">Summer Collection New Modern Design</p>
+        </div>
+        <div class="products my-5 w-100">
+            <div class="container ">
+                <div class="row row-gap-4  ">
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/p1.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Shirt</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">30.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/p2.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Shirt</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">24.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/p3.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Shirt</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">19.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/p4.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Shirt</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">25.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/p5.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Shirt</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">30.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/p6.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Shirt</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">32.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/p7.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Pants</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">30.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/p8.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Shirt</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">36.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end products -->
+    <!-- start service -->
+    <div class="services bg-danger py-5 d-flex flex-column justify-content-center align-items-center gap-3 my-5">
+        <h3 class="text-white font-weight-bold">Repair Services</h3>
+        <div class="content d-flex justify-content-center text-white gap-2">
+            <h1>
+                Up to <span>70% Off</span>-
+            </h1>
+            <h1>All T-Shirts & Accessories</h1>
+        </div>
+        <button class="explore-btn btn bg-white text-dark font-weight-bold px-4 py-2 ">Explore More</button>
+    </div>
+    <!-- end service -->
+    <!-- start products 2-->
+    <div class="featured-products pt-4" id="products">
+        <div class="head text-center">
+            <h1 class="head-title">New Arrivals</h1>
+            <p class="head-desc">Summer Collection New Modern Design</p>
+        </div>
+        <div class="products my-5 w-100">
+            <div class="container ">
+                <div class="row row-gap-4  ">
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/n1.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Shirt</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">9.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/n2.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Shirt</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">19.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/n3.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Shirt</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">15.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/n4.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Shirt</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">16.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/n5.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Shirt</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">10.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/n6.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Shirt</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">20.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/n7.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Pants</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">20.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card w-100 border border-1 rounded-5" style="width: 18rem;">
+                            <div class="p-2">
+                                <img src="media/imgs/n8.jpg" class="card-img-top rounded-5 " alt="...">
+                                <div class="card-body">
+                                    <p class="f-title-desc">adidas</p>
+                                    <h5 class="card-title m-0">Shirt</h5>
+                                    <div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="details d-flex justify-content-between align-items-center py-2">
+                                        <p class="price fs-4 font-weight-bold second-text-color my-0">29.99</p>
+                                        <button
+                                            class="add-to-cart rounded-circle d-flex justify-content-center align-items-center "><i
+                                                class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start collections -->
+    <div class="collections">
+        <div class="container">
+            <div class="row row-gap-4">
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="offer-1 d-flex flex-column justify-content-center py-5">
+                        <div class="d-flex flex-column align-items-baseline justify-content-center py-4 px-3">
+                            <p class="head-desc fs-4 text-white m-0">crazy deals</p>
+                            <h1 class="head-title text-light fs-2">buy 1 get 1 free</h1>
+                            <p class="text-white">The best classic dress is on sale at cara</p>
+                            <button class="btn text-white bg-transparent border border-1 py-2 px-4 rounded-0 ">Learn
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="offer-2 d-flex flex-column justify-content-center py-5">
+                        <div class="d-flex flex-column align-items-baseline justify-content-center py-4 px-3">
+                            <p class="head-desc fs-4 text-white m-0">crazy deals</p>
+                            <h1 class="head-title text-light fs-2">buy 1 get 1 free</h1>
+                            <p class="text-white">The best classic dress is on sale at cara</p>
+                            <button class="btn text-white bg-transparent border border-1 py-2 px-4 rounded-0 ">Learn
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="offer-3 d-flex flex-column justify-content-center py-5">
+                        <div class="d-flex flex-column align-items-baseline justify-content-center py-3 px-3">
+                            <h1 class="head-title text-light fs-2">SEASONAL SALE</h1>
+                            <p class="offer-p head-desc fs-5">Winter Collection 50% OFF</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="offer-4  d-flex flex-column justify-content-center py-5">
+                        <div class="d-flex flex-column align-items-baseline justify-content-center py-3 px-3">
+                            <h1 class="head-title text-light fs-2">NEW FOOTWEAR COLLECTION</h1>
+                            <p class="offer-p head-desc fs-5 ">Spring / Summer 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="offer-5 d-flex flex-column  py-5">
+                        <div class="pt-3 px-3">
+                            <h1 class="head-title text-light fs-2">T-SHIRTS</h1>
+                            <p class="offer-p head-desc fs-5">New Trendy Prints</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end collections -->
+    <!-- start newspaper section -->
+    <div class="newspaper my-5 py-4 ">
+        <div class="container  w-100">
+            <div class="row align-items-center ">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="">
+                        <h1 class="head-title fs-2 text-white">Sign Up For Newsletters</h1>
+                        <p class="head-desc lh-0">Get E-mail updates about our latest shop and <span>special
+                                offers</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-12 col-md-6 col-lg-4">
+                    <div>
+                        <form action="#" method="post" class="">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Your email address"
+                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button type="submit" class="input-group-text text-white rounded-0 "
+                                        id="basic-addon2">SignUp</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end newspaper section -->
+    <!-- start footer section-->
+    <div class="footer py-4 pb-5">
+        <div class="container">
+            <div class="row row-gap-5">
+                <div class="col-12 col-md-8 col-lg-4 ">
+                    <div class="">
+                        <img src="media/imgs/logo.png" alt="" width="100px" class="mb-4">
+                        <h3 class="second-text-color fw-bold font-head-1 mb-3">Contact Us</h3>
+                        <div class="d-flex flex-column gap-2 ">
+                            <p class="m-0"><span class="fw-bold">Address: </span>562 Wellingtom Road. Street32. San
+                                Francisco</p>
+                            <p class="m-0"><span class="fw-bold">Phone: </span>+01019103897/ (+9)0123456789</p>
+                            <p class="m-0"><span class="fw-bold">Hours: </span>10:00 - 18:00. Mon - Sat</p>
+                            <div class="mt-2">
+                                <h3 class="second-text-color fw-bold font-head-1 mb-0">Follow Us</h3>
+                                <div class="social-media d-flex justify-content-center gap-3 ">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2 ">
+                    <div>
+                        <h3 class="second-text-color fw-bold font-head-1 mb-4">About</h3>
+                        <ul class="list-unstyled d-flex flex-column row-gap-3 ">
+                            <li><a href="#" class="text-decoration-none font-desc-1">About Us</a></li>
+                            <li><a href="#" class="text-decoration-none font-desc-1">Delivery Information</a></li>
+                            <li><a href="#" class="text-decoration-none font-desc-1">Privacy Policy</a></li>
+                            <li><a href="#" class="text-decoration-none font-desc-1">Terms & Conditions</a></li>
+                            <li><a href="#" class="text-decoration-none font-desc-1">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2 ">
+                    <div>
+                        <h3 class="second-text-color fw-bold font-head-1 mb-4">My Account</h3>
+                        <ul class="list-unstyled d-flex flex-column row-gap-3">
+                            <li><a href="#" class="text-decoration-none font-desc-1">Sign In</a></li>
+                            <li><a href="#" class="text-decoration-none font-desc-1">View Vart</a></li>
+                            <li><a href="#" class="text-decoration-none font-desc-1">My Wishlist</a></li>
+                            <li><a href="#" class="text-decoration-none font-desc-1">Track My Order</a></li>
+                            <li><a href="#" class="text-decoration-none font-desc-1">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-4">
+                    <div>
+                        <h3 class="second-text-color fw-bold font-head-1 mb-4">Install App</h3>
+                        <div class="d-flex flex-column gap-4 ">
+                            <p class="font-desc-1 mb-0">From App Store or Google Play</p>
+                            <div class="app-installer d-flex justify-content-center flex-wrap gap-2 ">
+                                <div class="border border-2 rounded-3 px-1"><a href="#"><img src="./media/imgs/app.jpg"
+                                            alt=""></a></div>
+                                <div class="border border-2 rounded-3 px-1"><a href="#"><img src="./media/imgs/play.jpg"
+                                            alt=""></a></div>
+                            </div>
+                            <p class="font-desc-1 mb-0">Secured Payment Gateways</p>
+                            <a href="#"><img src="media/imgs/pay.png" alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer section -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

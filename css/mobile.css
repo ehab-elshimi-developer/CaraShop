@@ -1,0 +1,60 @@
+@media (max-width: 767px) {
+    .header {
+        height: calc(100vh - 4em);
+        background-position: 79%;
+        position: relative;
+    }
+
+    .header .row {
+        height: calc(100vh - 8em);
+    }
+
+    .header .custom-overlay {
+        background-color: #e3e6f3e0;
+    }
+
+    .header h1 {
+        font-size: 2.5em;
+    }
+
+    .header h2 {
+        font-size: 2.5em;
+    }
+
+    .header .header-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* start products  */
+    .featured-products .head-title {
+        font-size: 2em;
+    }
+
+    .featured-products .products .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* start services */
+    .services .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services .content h1 span {
+        color: #fff !important;
+        background-color: rgba(239, 54, 54, 0.6);
+    }
+
+    /* start newspaper */
+    .newspaper .row {
+        text-align: center;
+    }
+
+    /* start footer */
+    .footer .row {
+        text-align: center;
+    }
+}

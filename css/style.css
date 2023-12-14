@@ -1,0 +1,266 @@
+:root {
+    --first-color: #212529;
+    --second-color: #088178;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* start navbar */
+.navbar {
+    background-color: #e3e6f3;
+}
+
+.nav-link {
+    color: rgb(61, 61, 61);
+}
+
+.nav-link.active {
+    color: #479097 !important;
+}
+
+.navbar .navbar-collapse .cart span {
+    background-color: #088178;
+    position: absolute;
+    top: -16px;
+}
+
+/* end navbar */
+/* start header */
+.header {
+    height: calc(100vh - 5em);
+    background: url('../media/imgs/hero4.png') no-repeat;
+    background-size: cover;
+}
+
+.header .row {
+    height: calc(100vh - 5em);
+}
+
+.header h1 {
+    font-size: 3.5em;
+}
+
+.header h2 {
+    font-size: 3.5em;
+}
+
+.header .shop-now {
+    background: url("../media/imgs/button.png") no-repeat;
+    background-size: contain;
+    width: 12em;
+    height: 2.5em;
+}
+
+/* end header */
+/* start features */
+.features .box img {
+    width: 152px;
+    height: 105px;
+    display: block;
+    margin: 0 auto;
+}
+
+.features .box>div {
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: var(--second-color);
+    margin: 0 12px 22px;
+}
+
+.features .box .f1 {
+    background-color: #fddde4;
+}
+
+.features .box .f2 {
+    background-color: #cdebbc;
+}
+
+.features .box .f3 {
+    background-color: #d1e8f2;
+}
+
+.features .box .f4 {
+    background-color: #cdd4f8;
+}
+
+.features .box .f5 {
+    background-color: #f6dbf6;
+}
+
+.features .box .f6 {
+    background-color: #fff2e5;
+}
+
+/* end features */
+/* start products section */
+.products .card .card-title {
+    color: #212529 !important;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.products .card-body div i {
+    color: #f3b519;
+    font-size: 1em;
+}
+
+.products .card-body .price {
+    font-weight: 600;
+}
+
+.products .card-body .add-to-cart {
+    background-color: #dbedec;
+    width: 2.2em;
+    height: 2.2em;
+    border: 0.7px solid #84bcc1;
+}
+
+.products .card-body .add-to-cart i {
+    color: var(--second-color);
+}
+
+/* end products section */
+/* start services section*/
+.services {
+    background: url('../media/imgs/b2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.services h1 {
+    font-weight: 800;
+    line-height: 2;
+}
+
+.services h1 span {
+    color: #ef3636 !important;
+}
+
+.services .explore-btn {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.services .explore-btn:hover {
+    background-color: var(--second-color) !important;
+    color: #fff !important;
+}
+
+/* end services section*/
+/* start collections section */
+.offer-1 {
+    background: url("../media/imgs/b17.jpg") no-repeat;
+    background-size: cover;
+}
+
+.offer-2 {
+    background: url("../media/imgs/b10.jpg") no-repeat;
+    background-size: cover;
+}
+
+.offer-3 {
+    background: url("../media/imgs/b7.jpg") no-repeat;
+    background-size: cover;
+    background-position: center 25%;
+}
+
+.offer-4 {
+    background: url("../media/imgs/b4.jpg") no-repeat;
+    background-size: cover;
+    background-position: center 25%;
+}
+
+.offer-5 {
+    background: url("../media/imgs/b18.jpg") no-repeat;
+    background-size: cover;
+    background-position: center 25%;
+}
+
+/* end collections section */
+/* start newspaper section */
+.newspaper {
+    background-color: #041e42;
+}
+
+.newspaper span {
+    color: #ffbd35;
+}
+
+.newspaper form #basic-addon2 {
+    background-color: var(--second-color);
+    font-weight: 600;
+    border: 1px solid var(--second-color);
+    padding: 0.6em 2em;
+}
+
+.newspaper form input {
+    padding: 0.6em;
+}
+
+/* end newspaper section */
+/* start footer section */
+.footer .app-installer>div {
+    border-color: var(--second-color) !important;
+}
+
+.footer .social-media a {
+    color: #3d3d3d;
+    font-size: 1.2em;
+}
+
+.footer .social-media a:hover {
+    color: #0d6efd;
+}
+
+/* end footer section */
+/* start framework Or Utilities*/
+.main-text-color {
+    color: var(--first-color);
+}
+
+.second-text-color {
+    color: var(--second-color);
+}
+
+.f-title-desc {
+    font-size: 0.8em !important;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 500;
+}
+
+.head-title {
+    color: var(--first-color);
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.head-desc {
+    font-weight: 500;
+    font-size: 1em;
+    color: rgba(126, 126, 126, 0.9);
+}
+
+.offer-p {
+    color: #76fff6;
+    font-weight: 700;
+}
+
+.font-head-1 {
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+.font-desc-1 {
+    font-weight: 400;
+    font-size: 1em;
+    color: rgba(48, 47, 47, 0.9);
+    line-height: 1.3em;
+}
+
+/* end framework */

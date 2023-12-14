@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) and (max-width:991px) {
+
+    /* start header */
+    .header {
+        background-position: 64%;
+        height: calc(100vh - 12em);
+    }
+
+    .header .row {
+        height: calc(100vh - 12em);
+    }
+
+    .header h1 {
+        font-size: 2.8em;
+    }
+
+    .header h2 {
+        font-size: 2.8em;
+    }
+
+    /* start newspaper */
+    .newspaper .head-title {
+        font-size: 1.5em !important;
+    }
+
+    /* start footer */
+    .footer .row>div:nth-child(3) {
+        order: 1;
+    }
+}
