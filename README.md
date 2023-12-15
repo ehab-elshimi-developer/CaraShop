@@ -4,7 +4,7 @@ Welcome to CaraShop, a sophisticated and responsive Bootstrap landing page desig
 
 ## Preview
 
-Explore the CaraShop landing page by visiting [this link]([#insert-your-live-demo-link-here](https://github.com/ehab-elshimi-developer/CaraShop.git)).
+Explore the CaraShop landing page by visiting [this link](https://github.com/ehab-elshimi-developer/CaraShop.git).
 
 ## Features
 
